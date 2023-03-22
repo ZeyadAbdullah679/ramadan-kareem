@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Ramadan Kareem</string>
+    <string name="background">background</string>
+    <string name="ramadan_kareem">Ramadan Kareem</string>
+    <string name="fajr">Fajr</string>
+    <string name="_4_57_am">4:30 AM</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="_6_13_am">5:57 AM</string>
+    <string name="_12_10_pm">12:02 PM</string>
+    <string name="dhuhr">Dhuhr</string>
+    <string name="_3_32_pm">3:30 PM</string>
+    <string name="asr">Asr</string>
+    <string name="_6_06_pm">6:07 PM</string>
+    <string name="maghrib">Maghrib</string>
+    <string name="isha">Isha</string>
+    <string name="_7_36_pm">7:25 PM</string>
+</resources>

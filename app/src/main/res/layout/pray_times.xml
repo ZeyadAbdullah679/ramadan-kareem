@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/normal_spacing"
+    android:elevation="2dp">
+
+
+    <View
+        android:id="@+id/fajr"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="@dimen/normal_spacing"
+        android:background="@drawable/rounded_edges"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_spacing"
+        android:text="@string/fajr"
+        android:textColor="@color/black"
+        android:textSize="@dimen/normal_size"
+        app:layout_constraintBottom_toBottomOf="@+id/fajr"
+        app:layout_constraintStart_toStartOf="@+id/fajr"
+        app:layout_constraintTop_toTopOf="@+id/fajr" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/normal_spacing"
+        android:text="@string/_4_57_am"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/small_size"
+        app:layout_constraintBottom_toBottomOf="@+id/fajr"
+        app:layout_constraintEnd_toEndOf="@+id/fajr"
+        app:layout_constraintTop_toTopOf="@+id/fajr" />
+
+    <View
+        android:id="@+id/sunrise"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="@dimen/small_margin"
+        android:background="@drawable/rounded_edges"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fajr" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_spacing"
+        android:text="@string/sunrise"
+        android:textColor="@color/black"
+        android:textSize="@dimen/normal_size"
+        app:layout_constraintBottom_toBottomOf="@+id/sunrise"
+        app:layout_constraintStart_toStartOf="@+id/sunrise"
+        app:layout_constraintTop_toTopOf="@+id/sunrise" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/normal_spacing"
+        android:text="@string/_6_13_am"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/small_size"
+        app:layout_constraintBottom_toBottomOf="@+id/sunrise"
+        app:layout_constraintEnd_toEndOf="@+id/sunrise"
+        app:layout_constraintTop_toTopOf="@+id/sunrise" />
+
+    <View
+        android:id="@+id/dhuhur"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="@dimen/small_margin"
+        android:background="@drawable/rounded_edges"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sunrise" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_spacing"
+        android:text="@string/dhuhr"
+        android:textColor="@color/black"
+        android:textSize="@dimen/normal_size"
+        app:layout_constraintBottom_toBottomOf="@+id/dhuhur"
+        app:layout_constraintStart_toStartOf="@+id/dhuhur"
+        app:layout_constraintTop_toTopOf="@+id/dhuhur" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/normal_spacing"
+        android:text="@string/_12_10_pm"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/small_size"
+        app:layout_constraintBottom_toBottomOf="@+id/dhuhur"
+        app:layout_constraintEnd_toEndOf="@+id/dhuhur"
+        app:layout_constraintTop_toTopOf="@+id/dhuhur" />
+
+
+    <View
+        android:id="@+id/asr"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="@dimen/small_margin"
+        android:background="@drawable/rounded_edges"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dhuhur" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_spacing"
+        android:text="@string/asr"
+        android:textColor="@color/black"
+        android:textSize="@dimen/normal_size"
+        app:layout_constraintBottom_toBottomOf="@+id/asr"
+        app:layout_constraintStart_toStartOf="@+id/asr"
+        app:layout_constraintTop_toTopOf="@+id/asr" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/normal_spacing"
+        android:text="@string/_3_32_pm"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/small_size"
+        app:layout_constraintBottom_toBottomOf="@+id/asr"
+        app:layout_constraintEnd_toEndOf="@+id/asr"
+        app:layout_constraintTop_toTopOf="@+id/asr" />
+
+
+    <View
+        android:id="@+id/maghrib"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="@dimen/small_margin"
+        android:background="@drawable/rounded_edges"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/asr" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_spacing"
+        android:text="@string/maghrib"
+        android:textColor="@color/black"
+        android:textSize="@dimen/normal_size"
+        app:layout_constraintBottom_toBottomOf="@+id/maghrib"
+        app:layout_constraintStart_toStartOf="@+id/maghrib"
+        app:layout_constraintTop_toTopOf="@+id/maghrib" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/normal_spacing"
+        android:text="@string/_6_06_pm"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/small_size"
+        app:layout_constraintBottom_toBottomOf="@+id/maghrib"
+        app:layout_constraintEnd_toEndOf="@+id/maghrib"
+        app:layout_constraintTop_toTopOf="@+id/maghrib" />
+
+    <View
+        android:id="@+id/isha"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="@dimen/small_margin"
+        android:background="@drawable/rounded_edges"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maghrib" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_spacing"
+        android:text="@string/isha"
+        android:textColor="@color/black"
+        android:textSize="@dimen/normal_size"
+        app:layout_constraintBottom_toBottomOf="@+id/isha"
+        app:layout_constraintStart_toStartOf="@+id/isha"
+        app:layout_constraintTop_toTopOf="@+id/isha" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/normal_spacing"
+        android:text="@string/_7_36_pm"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/small_size"
+        app:layout_constraintBottom_toBottomOf="@+id/isha"
+        app:layout_constraintEnd_toEndOf="@+id/isha"
+        app:layout_constraintTop_toTopOf="@+id/isha" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
